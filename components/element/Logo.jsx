@@ -20,7 +20,13 @@ const Logo = () => {
         onClickIcon={onClickMenu}
       />
       <div className="cursor-pointer" onClick={onClickLogo}>
-        <Image alt="logo" src={"/main-logo.svg"} width={100} height={36} />
+        <Image
+          alt="logo"
+          src={"/main-logo.svg"}
+          width={100}
+          height={36}
+          priority
+        />
       </div>
     </section>
   );
