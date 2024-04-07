@@ -1,7 +1,7 @@
 import React from "react";
 
-const page = (props) => {
-  return <div>channel/{props.params.id}</div>;
+const page = () => {
+  return <div>channel/</div>;
 };
 
 export default page;
